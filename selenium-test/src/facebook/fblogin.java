@@ -18,10 +18,10 @@ public class fblogin {
 		driver.manage().window().maximize();
 		
 		WebElement UserID = driver.findElement(By.xpath("//INPUT[@id='email']"));
-        UserID.sendKeys("kondetidinesh08@gmail.com");
+        UserID.sendKeys("email");
         
         WebElement Password = driver.findElement(By.xpath("//INPUT[@id='pass']"));
-        Password.sendKeys("kondeti08");
+        Password.sendKeys("password");
         
         WebElement Submit = driver.findElement(By.xpath("//BUTTON[@type='submit']"));
         Submit.click();
